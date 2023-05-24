@@ -1,0 +1,12 @@
+/** Books:
+It ends with us (4)
+Twisted Love (1)
+Me Before you (3) 
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY,name TEXT,rating INTEGER);
+
+INSERT INTO books VALUES (1,"It Ends With Us",4);
+INSERT INTO books VALUES (2,"Twisted Love",1);
+INSERT INTO books VALUES (3,"Me Before You",3);
+SELECT * FROM books;
