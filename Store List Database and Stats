@@ -1,0 +1,16 @@
+/**Clothes:
+Sundress (14)
+Jean shorts (15)
+Black skirt (13)
+Vneck crop (8) 
+Bralette (15)
+**/
+
+CREATE TABLE clothes (id INTEGER PRIMARY KEY,name TEXT,rating INTEGER);
+
+INSERT INTO clothes VALUES (1,"Sundress ",14);
+INSERT INTO clothes VALUES (2,"Jean shorts",15);
+INSERT INTO clothes VALUES (3,"Black skirt",13);
+INSERT INTO clothes VALUES (4,"Vneck crop",8);
+INSERT INTO clothes VALUES (5
+,"Bralette",15);
